@@ -1,0 +1,24 @@
+<div class="border border-blue-900 rounded">
+  <div>
+    <table class="table-auto text-lg w-full">
+      <thead>
+      <tr class="font-bold">
+        <th class="w-80"></th>
+        <th>Objectif</th>
+        <th>avr 17</th>
+        <th>avr 21</th>
+        <th>avr 22</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let n of securite.data">
+        <td>{{n.text}}</td>
+        <td>{{n.objectif}}</td>
+        <td>{{n.val1}}</td>
+        <td>{{n.val2}}</td>
+        <td>{{n.val3}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

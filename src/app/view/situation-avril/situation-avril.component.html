@@ -1,0 +1,29 @@
+<div class="min-h-screen">
+  <div class="flex justify-center mb-10">
+    <div class="flex flex-col text-center font-semibold">
+      <div class="uppercase text-2xl">
+        <span class="text-[#1fc7ff]">LA TRANSFORMATION</span> EN ACTION
+      </div>
+      <div>
+        Situation à fin Avril 2022
+      </div>
+    </div>
+  </div>
+  <div class="grid grid-cols-4 gap-6">
+    <div class="col-span-2">
+      <app-statistic title="Projets"></app-statistic>
+    </div>
+    <div class="col-span-2">
+      <app-table title="RENFORCEMENT DE LA SÉCURITÉ" [securite]="securite[0]"></app-table>
+      <app-table title="RENFORCEMENT DE LA SÉCURITÉ" [securite]="securite[1]"></app-table>
+      <app-table title="RENFORCEMENT DE LA SÉCURITÉ" [securite]="securite[2]"></app-table>
+      <app-table title="RENFORCEMENT DE LA SÉCURITÉ" [securite]="securite[3]"></app-table>
+    </div>
+    <div class="col-span-1">
+      <app-illustration title="Benefice pour la population" [illustration]="benefPop"></app-illustration>
+    </div>
+    <div class="col-span-1">
+      <app-illustration title="Benefice pour la gendarmerie" [illustration]="benefGend"></app-illustration>
+    </div>
+  </div>
+</div>
