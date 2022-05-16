@@ -14,11 +14,11 @@
       </tr>
       </thead>
       <tbody *ngFor="let i of securite">
-      <tr [style.background-color]="i.bg">
+      <tr [style.background-color]="i.bg" [style.color]="i.color">
         <td colspan="5" class="text-left font-semibold uppercase px-6 py-1">{{i.name}}</td>
       </tr>
-      <tr *ngFor="let n of i.data" [style.background-color]="i.bg">
-        <td class="px-6">{{n.text}}</td>
+      <tr *ngFor="let n of i.data" [style.background-color]="i.bg" [style.color]="i.color">
+        <td class="font-light px-6 py-2">{{n.text}}</td>
         <td class="capitalize font-semibold text-center">{{n.objectif}}</td>
         <td class="text-center">{{n.val1}}</td>
         <td class="text-center">{{n.val2}}</td>

@@ -8,7 +8,6 @@ import { StatisticComponent } from './components/card/statistic/statistic.compon
 import { TableComponent } from './components/card/table/table.component';
 import {HeaderComponent} from "./components/global/header/header.component";
 import { SituationAvrilComponent } from './view/situation-avril/situation-avril.component';
-import { ReinforcementComponent } from './components/card/reinforcement/reinforcement.component';
 
 @NgModule({
   declarations: [
@@ -17,8 +16,7 @@ import { ReinforcementComponent } from './components/card/reinforcement/reinforc
     StatisticComponent,
     TableComponent,
     HeaderComponent,
-    SituationAvrilComponent,
-    ReinforcementComponent
+    SituationAvrilComponent
   ],
   imports: [
     BrowserModule,

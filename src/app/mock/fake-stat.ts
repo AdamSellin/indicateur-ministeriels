@@ -1,6 +1,7 @@
 export const renfSecurite = [
   {
     id: 0,
+    color: '#000000',
     bg: '#a8e1f4',
     name: "... DE PROXIMITE",
     data: [
@@ -22,6 +23,7 @@ export const renfSecurite = [
   },
   {
     id: 1,
+    color: '#000000',
     bg: '#75bcd4',
     name: "... DES NOUVELLES FRONTIERES",
     data: [
@@ -43,6 +45,7 @@ export const renfSecurite = [
   },
   {
     id: 2,
+    color: '#ffffff',
     bg: '#72929d',
     name: "... EN TEMPS DE CRISE",
     data: [
@@ -57,6 +60,7 @@ export const renfSecurite = [
   },
   {
     id: 3,
+    color: '#ffffff',
     bg: '#749ca9',
     name: "... MOBILITE",
     data: [

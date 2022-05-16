@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {benefGend, benefPop, renfSecurite} from "../../mock";
+import {benefGend, benefPop} from "../../mock";
 
 @Component({
   selector: 'app-situation-avril',
@@ -9,7 +9,6 @@ import {benefGend, benefPop, renfSecurite} from "../../mock";
 export class SituationAvrilComponent implements OnInit {
   benefPop = benefPop;
   benefGend = benefGend;
-  securite = renfSecurite;
 
   constructor() { }
 
