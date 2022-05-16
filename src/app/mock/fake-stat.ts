@@ -1,6 +1,7 @@
 export const renfSecurite = [
   {
     id: 0,
+    bg: '#a8e1f4',
     name: "... DE PROXIMITE",
     data: [
       {
@@ -21,6 +22,7 @@ export const renfSecurite = [
   },
   {
     id: 1,
+    bg: '#75bcd4',
     name: "... DES NOUVELLES FRONTIERES",
     data: [
       {
@@ -41,6 +43,7 @@ export const renfSecurite = [
   },
   {
     id: 2,
+    bg: '#72929d',
     name: "... EN TEMPS DE CRISE",
     data: [
       {
@@ -54,10 +57,11 @@ export const renfSecurite = [
   },
   {
     id: 3,
+    bg: '#749ca9',
     name: "... MOBILITE",
     data: [
       {
-        text: "> Nombre d’heures gendarmes dans les transports et lieux publics",
+        text: "> Nombre d’heures gendarmes dans les transports et lieux publics *",
         objectif: "hausse",
         val1: "156 472",
         val2: "188 991",

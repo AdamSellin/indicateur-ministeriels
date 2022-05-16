@@ -1,22 +1,31 @@
-<div class="border border-blue-900 rounded">
-  <div>
+<div class="rounded bg-[#ace2f4] border border-white">
+  <p class="text-center -mt-7 bg-[#0485b0] mx-auto rounded-full py-2 z-50 uppercase text-white text-xl font-light w-1/2">
+    RENFORCEMENT DE LA SÉCURITÉ
+  </p>
+  <div class="">
     <table class="table-auto text-lg w-full">
       <thead>
-      <tr class="font-bold">
-        <th class="w-80"></th>
+      <tr class="font-bold text-center">
+        <th class="w-60 text-left text-sm pl-6 py-4">Données en cumul annuel</th>
         <th>Objectif</th>
         <th>avr 17</th>
         <th>avr 21</th>
         <th>avr 22</th>
       </tr>
       </thead>
-      <tbody>
-      <tr *ngFor="let n of securite.data">
-        <td>{{n.text}}</td>
-        <td>{{n.objectif}}</td>
-        <td>{{n.val1}}</td>
-        <td>{{n.val2}}</td>
-        <td>{{n.val3}}</td>
+      <tbody *ngFor="let i of securite">
+      <tr [style.background-color]="i.bg">
+        <td colspan="5" class="text-left font-semibold uppercase px-6 py-1">{{i.name}}</td>
+      </tr>
+      <tr *ngFor="let n of i.data" [style.background-color]="i.bg">
+        <td class="px-6">{{n.text}}</td>
+        <td class="capitalize font-semibold text-center">{{n.objectif}}</td>
+        <td class="text-center">{{n.val1}}</td>
+        <td class="text-center">{{n.val2}}</td>
+        <td class="text-center">{{n.val3}}</td>
+      </tr>
+      <tr class="bg-white">
+        <td class="py-4" colspan="5"></td>
       </tr>
       </tbody>
     </table>

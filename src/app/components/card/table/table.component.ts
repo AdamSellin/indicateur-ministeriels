@@ -7,8 +7,7 @@ import {renfSecurite} from "../../../mock";
   styleUrls: ['./table.component.css']
 })
 export class TableComponent implements OnInit {
-  @Input() title!: string;
-  @Input() securite!: any;
+  securite = renfSecurite;
 
   constructor() { }
 
