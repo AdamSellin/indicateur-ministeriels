@@ -7,7 +7,7 @@ export const benefPop = [
   },
   {
     id: 2,
-    indicator: 1036746,
+    indicator: "1 036 746",
     text: "Heures gendarmes investies en plus dans la sécurité du quotidien",
     img: "https://angular.io/assets/images/logos/angular/logo-nav@2x.png",
   },
@@ -19,7 +19,7 @@ export const benefPop = [
   },
   {
     id: 4,
-    indicator: 3890,
+    indicator: "3 890",
     text: "Tonnes de CO2 économisées",
     img: "https://angular.io/assets/images/logos/angular/logo-nav@2x.png",
   }
@@ -28,7 +28,7 @@ export const benefPop = [
 export const benefGend = [
   {
     id: 1,
-    indicator: 21,
+    indicator: 19,
     text: "Nouveaux outils numériques facilitant les processus internes",
     img: "https://angular.io/assets/images/logos/angular/logo-nav@2x.png",
   },

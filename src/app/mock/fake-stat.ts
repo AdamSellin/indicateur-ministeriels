@@ -6,14 +6,14 @@ export const renfSecurite = [
     name: "... DE PROXIMITE",
     data: [
       {
-        text: "> Nombre d'heures gendarmes en patrouille sur la voie publique",
+        text: "> Nombre d'heures gendarmes en patrouille sur la voie publique*",
         objectif: "hausse",
         val1: "14 326 019",
         val2: "15 740 998",
         val3: "15 080 759",
       },
       {
-        text: "> Nombre d'amendes forfaitaires délictuelles pour usage de stupéfiants",
+        text: "> Nombre d'amendes forfaitaires délictuelles pour usage de stupéfiants*",
         objectif: "hausse",
         val1: "non disponible",
         val2: "8 186",
@@ -65,7 +65,7 @@ export const renfSecurite = [
     name: "... MOBILITE",
     data: [
       {
-        text: "> Nombre d’heures gendarmes dans les transports et lieux publics *",
+        text: "> Nombre d’heures gendarmes dans les transports et lieux publics*",
         objectif: "hausse",
         val1: "156 472",
         val2: "188 991",

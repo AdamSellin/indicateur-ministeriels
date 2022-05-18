@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgChartsModule } from 'ng2-charts';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -8,6 +9,7 @@ import { StatisticComponent } from './components/card/statistic/statistic.compon
 import { TableComponent } from './components/card/table/table.component';
 import {HeaderComponent} from "./components/global/header/header.component";
 import { SituationAvrilComponent } from './view/situation-avril/situation-avril.component';
+import {FooterComponent} from "./components/global/footer/footer.component";
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { SituationAvrilComponent } from './view/situation-avril/situation-avril.
     StatisticComponent,
     TableComponent,
     HeaderComponent,
-    SituationAvrilComponent
+    SituationAvrilComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
