@@ -1,0 +1,42 @@
+<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+  <table class="w-full text-sm text-left text-gray-500">
+    <thead class="text-xs text-gray-700 uppercase bg-gray-50">
+    <tr>
+      <th scope="col" class="px-6 py-3">
+        Nom du project
+      </th>
+      <th scope="col" class="px-6 py-3">
+          Responsable
+      </th>
+      <th scope="col" class="px-6 py-3">
+        Description
+      </th>
+      <th scope="col" class="px-6 py-3">
+        Priorité
+      </th>
+      <th scope="col" class="px-6 py-3">
+        Date de création
+      </th>
+    </tr>
+    </thead>
+    <tbody *ngFor="let n of data">
+    <tr class="bg-white border-b">
+      <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+        {{n.name}}
+      </th>
+      <td class="px-6 py-4">
+        {{n.manager}}
+      </td>
+      <td class="px-6 py-4">
+        {{n.description}}
+      </td>
+      <td class="px-6 py-4">
+        {{n.priority}}
+      </td>
+      <td class="px-6 py-4">
+        {{n.startDate}}
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

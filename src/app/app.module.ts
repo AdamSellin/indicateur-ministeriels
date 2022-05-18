@@ -10,6 +10,8 @@ import { TableComponent } from './components/card/table/table.component';
 import {HeaderComponent} from "./components/global/header/header.component";
 import { SituationAvrilComponent } from './view/situation-avril/situation-avril.component';
 import {FooterComponent} from "./components/global/footer/footer.component";
+import { MyProjectComponent } from './view/my-project/my-project.component';
+import { TabComponent } from './components/tab/tab.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import {FooterComponent} from "./components/global/footer/footer.component";
     TableComponent,
     HeaderComponent,
     SituationAvrilComponent,
-    FooterComponent
+    FooterComponent,
+    MyProjectComponent,
+    TabComponent
   ],
   imports: [
     BrowserModule,
